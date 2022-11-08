@@ -1,0 +1,8 @@
+Stuff to fix in The Tea Cozy
+
+1. -DRY especially (textContainer) and (textContainerr), and avoid calling flex on both parents and childs-
+2. Fix the non responsive Mission and Featured Tea statements
+3. Make sure fonts and font sizes for h1, h2, etc. are all the same as redline
+4. Add some media queries to make it responsive with Phones, don't forget the meta tag in HTML (Featured Tea imgs and Locations fonts)
+5. Set local links to move exactly to the desired destination, (not below it due to the fixed header)
+7. Make a git repository for the project and push it via Command Line.

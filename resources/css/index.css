@@ -1,0 +1,211 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Helvetica;
+    font-size: 22px;
+    color: seashell;
+    background-color: black;
+    opacity: 0.9;
+    text-align: center;
+}
+
+/*....Spacers....*/
+
+.spacer {
+    width: 100%;
+    height: 50px;
+}
+
+/*....Header....*/
+
+#header {
+    box-sizing: border-box;
+    position: fixed;
+    top: 0;
+    height: 69px;
+    width: 100%;
+    border-bottom: 1px solid seashell;
+    z-index: 1;
+}
+
+#logo {
+    position: relative;
+    float: left;
+    height: 50px;
+    left: 10px;
+}
+
+#navbar {
+    position: relative;
+    top: 25%;
+    right: 10px;
+    float: right;
+}
+
+#navbar li a:hover {
+    color: gray;
+}
+
+#navbar-item {
+    display: inline-block;
+    text-decoration: underline;
+    margin: 0 5px;
+}
+
+/*....Mission....*/
+
+#mission {
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    margin-top: 69px;
+    height: 700px;
+    width: 1200px;
+    width: 100%;
+}
+
+#mission img {
+    position: absolute;
+    height: 700px;
+    width: 1200px;
+    object-fit: cover;
+}
+
+#mission .textContainer {
+    display: flex;
+    position: absolute;
+    width: 1200px;
+    height: 100px;
+    align-items: center;
+    justify-content: flex-end;
+    flex-direction: column;
+}
+
+#mission .textContainer h2 {
+    position: absolute;
+    font-size: 26pt;
+    margin-top: 5px;
+    top: 0;
+}
+
+#mission .textContainer h4 {
+    margin-bottom: 5px;
+}
+
+/*....Featured Tea....*/
+#featuredTea {
+    display: inline-flex;
+    justify-content: center;
+    height: auto;
+    width: 1000px;
+}
+
+#featuredTea .textContainer {
+    display: flex;
+    position: absolute;
+    height: 100px;
+    align-items: center;
+    justify-content: flex-end;
+    flex-direction: column;
+}
+
+#featuredTea .textContainer h2 {
+    position: absolute;
+    font-size: 26pt;
+    margin-top: 5px;
+    top: 0;
+}
+
+#featuredTea .textContainer h4 {
+    margin-bottom: 5px;
+}
+
+#featuredTea .featuredContainer {
+    display: flex;
+    margin-top: 150px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+#featuredTea .featuredContainer img {
+    height: 200px;
+    width: 300px;
+    margin: 0 15px;
+}
+
+#featuredTea .featuredContainer figcaption {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+/*....Locations....*/
+#locations {
+    display: flex;
+    position: relative;
+    height: 500px;
+    width: 1200px;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+
+
+}
+
+#locations h2 {
+    position: absolute;
+    top: 45px;
+    z-index: 1;
+    font-size: 26pt;
+    background-color: transparent;
+}
+
+#locations img {
+    position: absolute;
+    height: 500px;
+    width: 1200px;
+    object-fit: cover;
+}
+
+#locations .textContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-content: center;
+    margin: 0 20px;
+    opacity: 1;
+    height: 300px;
+    width: 300px;
+    z-index: 1;
+}
+
+#locations .textContainer h3 {
+    font-size: 22pt;
+}
+
+#locations .textContainer h4 {
+    font-weight: normal;
+}
+
+/*....Footer....*/
+
+footer .textContainer {
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    margin-top: 10px;
+    flex-direction: column;
+    z-index: 1;
+    height: 200px;
+}
+
+footer .textContainer h2 {
+    font-size: 30px;
+}
+
+#copyrightTag {
+    font-size: medium;
+    margin-left: 20px;
+    margin-bottom: 10px;
+    text-align: left;
+}
